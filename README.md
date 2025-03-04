@@ -1,6 +1,6 @@
 # BeTalent - Tabela de Funcionários
 
-O projeto conssite em uma tabela de funcionarios que permite ser feita uma busca por nome, cargo e numero de telefone.
+O projeto consiste em uma tabela de funcionarios que permite ser feita uma busca por nome, cargo e numero de telefone.
 
 ### Observações:
 Ao baixar o db.json do repositório disponibilizado, notei que havia apenas 9 funcionários, enquanto no layout deveriam ser 10. Por isso, adicionei o funcionário que faltava. Além disso, como no Figma foram incluídas 12 imagens para fotos de funcionários, acrescentei mais dois funcionários ao db.json. Para acomodar essa mudança, implementei um scroll na tabela.
@@ -9,13 +9,9 @@ Também adicionei um indicador de carregamento enquanto os dados são obtidos e 
 
 # Imagem da tela.
 ![image](https://github.com/user-attachments/assets/9738845c-5873-42fa-8dc9-19280504c2c8)
-![image](https://github.com/user-attachments/assets/8dd43a14-74d1-4363-863b-0f1c365fc80a)
-![image](https://github.com/user-attachments/assets/5f9c5cf7-15a8-4db8-9502-f7d7ef5f97ac)
-![image](https://github.com/user-attachments/assets/17c79a8c-0470-4344-a96d-28effa5a3ba9)
-
-
-
-
+![image](https://github.com/user-attachments/assets/d046317f-f4ae-4b75-a301-ee3f20302a7a)
+![image](https://github.com/user-attachments/assets/c9f2440f-5930-41a6-9358-05fc8e83a42f)
+![image](https://github.com/user-attachments/assets/5342ac68-c45f-45b4-b5c7-fd2bb5e4d182)
 
 - ## Tenologias usadas no projeto.
 
@@ -35,9 +31,9 @@ $ git clone https://github.com/Victor-als/beTalent-teste
 ```sh
 npm install
 ```
-3. Rode o Json Server?
+3. Rode o Json Server:
 ```sh
- json-server --watch db.json --port 5000
+ npm run server
 ```
 4. Para rodar o projeto localmente:
 ```sh
