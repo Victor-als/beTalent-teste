@@ -1,0 +1,100 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "name": "João",
+      "job": "Back-end",
+      "admission_date": "2019-12-02T00:00:00.000Z",
+      "phone": "5551234567890",
+      "image": "/src/assets/images/avatar-1.png"
+    },
+    {
+      "id": 2,
+      "name": "Roberto",
+      "job": "Front-end",
+      "admission_date": "2020-03-12T00:00:00.000Z",
+      "phone": "5550321654789",
+      "image": "/src/assets/images/avatar-2.png"
+    },
+    {
+      "id": 3,
+      "name": "Maria",
+      "job": "Front-end",
+      "admission_date": "2020-03-15T00:00:00.000Z",
+      "phone": "5557894561230",
+     "image": "/src/assets/images/avatar-3.png"
+    },
+    {
+      "id": 4,
+      "name": "Cleber",
+      "job": "Back-end",
+      "admission_date": "2020-06-01T00:00:00.000Z",
+      "phone": "5557410258963",
+      "image": "/src/assets/images/avatar-4.png"
+    },
+    {
+      "id": 5,
+      "name": "Giovana",
+      "job": "Designer",
+      "admission_date": "2020-06-20T00:00:00.000Z",
+      "phone": "5553698520147",
+      "image": "/src/assets/images/avatar-5.png"
+    },
+    {
+      "id": 6,
+      "name": "Mario",
+      "job": "Front-end",
+      "admission_date": "2020-10-01T00:00:00.000Z",
+      "phone": "5551234567890",
+      "image": "/src/assets/images/avatar-6.png"
+    },
+    {
+      "id": 7,
+      "name": "Gabriel",
+      "job": "Back-end",
+      "admission_date": "2021-01-01T00:00:00.000Z",
+      "phone": "5551234567890",
+      "image": "/src/assets/images/avatar-7.png"
+    },
+    {
+      "id": 8,
+      "name": "Carla",
+      "job": "Back-end",
+      "admission_date": "2021-03-01T00:00:00.000Z",
+      "phone": "5551234567890",
+      "image": "/src/assets/images/avatar-8.png"
+    },
+    {
+      "id": 9,
+      "name": "Fernanda",
+      "job": "Front-end",
+      "admission_date": "2021-05-01T00:00:00.000Z",
+      "phone": "5551234567890",
+      "image": "/src/assets/images/avatar-9.png"
+    }, 
+    {
+      "id": 10,
+      "name": "Caroline",
+      "job": "Front-end",
+      "admission_date": "2021-06-08T00:00:00.000Z",
+      "phone": "5551234567890",
+      "image": "/src/assets/images/avatar-10.png"
+    },
+    {
+      "id": 11,
+      "name": "Bruna",
+      "job": "Back-end",
+      "admission_date": "2021-08-02T00:00:00.000Z",
+      "phone": "5551234567890",
+      "image": "/src/assets/images/avatar-11.png"
+    },
+    {
+      "id": 12,
+      "name": "Gabriela",
+      "job": "Designer",
+      "admission_date": "2021-04-10T00:00:00.000Z",
+      "phone": "5554234567890",
+      "image": "/src/assets/images/avatar-12.png"
+    }
+  ]
+}

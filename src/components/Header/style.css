@@ -1,0 +1,19 @@
+header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 3.75rem;
+  box-shadow: var(--shadow-md);
+  background-color: var(--white-neutral);
+}
+.logo-img {
+  width: 6rem;
+  height: 2rem;
+  margin-left: 1.5rem;
+}
+
+@media (max-width: 480px) {
+  .logo-img {
+    margin-left: 0.6rem;
+  }
+}
