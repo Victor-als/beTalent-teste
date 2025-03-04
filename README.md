@@ -1,50 +1,47 @@
-# React + TypeScript + Vite
+# BeTalent - Tabela de Funcionários
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+O projeto conssite em uma tabela de funcionarios que permite ser feita uma busca por nome, cargo e numero de telefone.
 
-Currently, two official plugins are available:
+### Observações:
+Ao baixar o db.json do repositório disponibilizado, notei que havia apenas 9 funcionários, enquanto no layout deveriam ser 10. Por isso, adicionei o funcionário que faltava. Além disso, como no Figma foram incluídas 12 imagens para fotos de funcionários, acrescentei mais dois funcionários ao db.json. Para acomodar essa mudança, implementei um scroll na tabela.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Também adicionei um indicador de carregamento enquanto os dados são obtidos e uma mensagem de "Nenhum funcionário encontrado" caso a busca não retorne resultados.
 
-## Expanding the ESLint configuration
+# Imagem da tela.
+![image](https://github.com/user-attachments/assets/9738845c-5873-42fa-8dc9-19280504c2c8)
+![image](https://github.com/user-attachments/assets/8dd43a14-74d1-4363-863b-0f1c365fc80a)
+![image](https://github.com/user-attachments/assets/5f9c5cf7-15a8-4db8-9502-f7d7ef5f97ac)
+![image](https://github.com/user-attachments/assets/17c79a8c-0470-4344-a96d-28effa5a3ba9)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+
+
+- ## Tenologias usadas no projeto.
+
+- React.Js (vite)
+- CSS
+- Axios
+- TypeScript
+
+## Para rodar o projeto localmente
+
+1. Clone o repositório:
+
+```sh
+$ git clone https://github.com/Victor-als/beTalent-teste
+```
+2. Instale as dependências:
+```sh
+npm install
+```
+3. Rode o Json Server?
+```sh
+ json-server --watch db.json --port 5000
+```
+4. Para rodar o projeto localmente:
+```sh
+npm run dev
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
