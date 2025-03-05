@@ -11,6 +11,8 @@ thead {
   position: sticky;
   top: 0;
   z-index: 10;
+  border-top-right-radius: 0.5rem;
+  border-top-left-radius: 0.5rem;
 }
 
 thead th {
@@ -26,16 +28,16 @@ thead th.circle {
   padding-right: 1.4rem;
 }
 
-tbody {
+tbody tr{
   background-color: var(--white-neutral);
+  animation: slideDown 0.8s ease-in-out;
 }
 
-tbody td {
+tbody td{
   text-align: left;
   padding: 0.7rem 1.2rem;
   border-bottom: 0.5px solid var(--gray-neutral-10);
   font-weight: 400;
-  animation: slideDown 0.5s ease-in-out;
 }
 
 thead th:nth-child(1),
@@ -95,7 +97,7 @@ tbody tr:has(+ .dropdown-row:not([hidden])) td {
 
 .scrollable-body {
   display: block;
-  max-height: 574px;
+  max-height: 568px;
   overflow-y: auto;
   scrollbar-width: thin;
   scrollbar-color: var(--blue-primary) var(--gray-neutral-10);
@@ -123,8 +125,6 @@ thead,
 tbody tr {
   display: table;
   width: 100%;
-  border-top-right-radius: 0.5rem;
-  border-top-left-radius: 0.5rem;
 }
 
 .loading-row {
@@ -199,9 +199,9 @@ tbody tr {
     padding-left: 1rem;
   }
   thead th:nth-child(2) {
-    padding-left: 1rem;
+    padding-left: 0.1rem;
   }
   tbody td:nth-child(2) {
-    padding-left: 1.6rem;
+    padding-left: 0.6rem;
   }
 }

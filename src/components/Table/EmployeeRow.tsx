@@ -51,14 +51,14 @@ export default function EmployeeRow({ employee, formatPhoneNumber, isMobile }: E
         <tr className="dropdown-row">
           <td colSpan={6}>
             <span className="dropdown-content">
-              <strong>Cargo:</strong> {employee.job}
+              <strong>Cargo</strong> {employee.job}
             </span>
             <span className="dropdown-content">
-              <strong>Data de Admissão:</strong>{" "}
+              <strong>Data de Admissão</strong>{" "}
               {new Date(employee.admission_date).toLocaleDateString("pt-BR")}
             </span>
             <span className="dropdown-content">
-              <strong>Telefone:</strong> {formatPhoneNumber(employee.phone)}
+              <strong>Telefone</strong> {formatPhoneNumber(employee.phone)}
             </span>
           </td>
         </tr>

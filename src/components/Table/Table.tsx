@@ -22,14 +22,14 @@ export default function Table({ employees, formatPhoneNumber }: ITableProps) {
   const [filteredEmployees, setFilteredEmployees] = useState<Employees[]>(employees);
 
   useEffect(() => {
-    const handleResize = () => {
-      setIsMobile(window.innerWidth < 768);
-    };
+     const handleResize = () => {
+       setIsMobile(window.innerWidth < 768);
+     };
 
-    handleResize();
-    window.addEventListener("resize", handleResize);
+     handleResize();
+     window.addEventListener("resize", handleResize);
 
-    return () => window.removeEventListener("resize", handleResize);
+     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
   useEffect(() => {
